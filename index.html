@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel ="stylesheet" href ="./index.css"> 
+        <title>Tuscaloosa Accounting Services</title>
+        <style>
+            table, th, td {
+                border: 1px solid black; 
+            }
+        </style>
+    </head>
+    <body>
+    <body onload = "showModal()">
+    <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script type="text/Javascript" src = "./resources/scripts/index.js"></script>
+        <script type="text/Javascript" src = "./resources/scripts/login-modal.js"></script>
+
+        <div style="background-image: url('./resources/images/surveyBackground.jpg');">
+
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Employee Login</h2>
+                    </div>
+                    <!-- <span class="close" onclick="closeModal()">&times;</span> -->
+                    <!-- <span class="close" onclick="closeModal()">&times;</span> -->
+                    <div class = "modal-body">
+                    <form onsubmit="return false" method="post">
+                        <label for="enterUser">Username:</label>
+                        <input type="text" name="enterUser" id="enterUser">
+
+                        <label for="enterUser">Password:</label>
+                        <input type="password" name="enterUser" id="enterUser">
+
+                        <input type="submit" value="Submit" id="updateSubmit"/>
+                        <!-- <span class="sumbit" onclick="closeModal()"></span> -->
+                    </form>
+                </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-default">
+                <ul>
+                    <li><a class="navp1" href ="./index.html">Home</a></li>
+                    <li><a class= "navp2" href ="./page2.html">Performance Review Survey</a></li>
+                    <li><a class= "navp3" href ="./page3.html">Feedback</a></li>
+                    <li><a class= "navp4" href ="./page4.html">Feedback 2</a></li>
+                    
+                </ul>
+            </nav>
+
+
+        <!--Jumbotron-->
+        <div class = "jumbotron" style = "background-color: rgb(149, 225, 255); color:white; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);"> <!--Creates a class for jumbotron-->
+            <h1>Tuscaloosa Accounting Services</h1>
+        </div>
+        
+    <!-- </div> -->
+    <form>
+   
+        <h2>Welcome to TAS Employee 360-Feedback Survey</h2>
+        <div class="purpose">
+            <p>Purpose of the Review</p>
+        </div>
+            <div class="purposeBody">
+            <body>A 360-Feedback Assessment is a multi-source assessmement in which feedback from an employee's subordinates,
+                colleagues, and supervisor(s), as well as a self-evaluation by the employee themselves is gathered.
+                This tool provides and individual a full understanding of his/her strengths and points of improvement. By assessing
+                our employees on a semi-annual basis, we strive to ensure our team has current feedback to form both short and long 
+                term goals. ... It is the resposibility of the team member to give honest and constructive </body>
+        </div>
+        <div class="scale">
+            <p>Scale</p>
+        </div>
+            <div class="scaleBody">
+            <div id="banner-img" style="overflow: clip;justify-content:space-around;">
+            <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;margin-left:75px; margin-right: 75px;">
+                <img src="./resources/images/redBulb.png" width="140px" height="150px"><br>
+                <div style="font-weight: bold; text-align: center;">Insufficient </div><br>
+                <!-- <p style="text-align: center;">Needs improvement</p> -->
+            </div>
+
+            <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;margin-left:75px; margin-right: 75px;">
+                <img src="./resources/images/orangeBulb.png" width="140px" height="150px"><br>
+                <div style="font-weight: bold; text-align: center;">Inconsistent</div><br>
+                <!-- <p style="text-align: center;">Lacks consistency <br>in work</p> -->
+            </div>
+
+            <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;margin-left:75px; margin-right: 75px;">
+                <img src=./resources/images/yellowBulb.png width="140px" height="150px"><br>
+                <div style="font-weight: bold; text-align: center;">Successful</div><br>
+                <!-- <p style="text-align: center;">You might say : </p> -->
+            </div>
+            <div class="test" style="max-width: 20%;max-height: 20%;display: inline-block;margin-left:75px; margin-right: 75px;">
+                <img src=./resources/images/limeBulb.png width="140px" height="150px"><br>
+                <div style="font-weight: bold; text-align: center;">Excellent</div><br>
+                <!-- <p style="text-align: center;">You might say :</p> -->
+            </div>
+            <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;margin-left:75px; margin-right: 75px;">
+                <img src=./resources/images/greenBulb.png width="140px" height="150px"><br>
+                <div style="font-weight: bold; text-align: center;"></body>Outstanding</div><br>
+                <!-- <p style="text-align: center;">You might say :</p> -->
+            </div>
+            </div>
+            
+            </div>
+            <div class="empExample">
+                <p>Feedback Examples</p>
+            </div>
+                <div class="empExampleBody">
+                <div class ="emp1example">
+                    <div class="" style="max-width: 80%;max-height: 33%;display: inline-block;margin-left:15px; margin-right: 15px;">
+                        <div style="text-align: center; font-weight: bold;">Employee A
+                        <img src=./resources/images/greenBulb.png width="35px" height="45px"></div>
+                        <div style="text-align: center;">Always on time and has a positive attitude, when put on a team they understand how to lead and be a team player.
+                            They are welcoming to new ideas keeping the end goal in mind. While having a busy schedule written and verbal communication
+                            is no concern, feedback is prompt and cohesive. They strive for continuous development and improvement. Driven by curiosity,
+                            they can help any team member solve a problem. Always up to date on topics and trends this team memeber is an asset to any firm.
+                        </div><br>
+                    </div>
+
+                        <!-- <div class="" style="max-width: 50%;max-height: 33%;display: inline-block;margin-left:15px; margin-right: 15px;">
+                            <div style="text-align: center; font-weight: bold;">Employee B
+                            <img src=./resources/images/yellowBulb.png width="35px" height="45px"></div>
+                            <div style="text-align: center;">Always on time and has a positive attitude, when put on a team they understand how to lead and be a team player.
+                                They are welcoming to new ideas keeping the end goal in mind. While having a busy schedule written and verbal communication
+                                is no concern, feedback is prompt and cohesive. They strive for continuous development and improvement. Driven by curiosity,
+                                they can help any team member solve a problem. Always up to date on topics and trends this team memeber is an asset to any firm.
+                            </div><br>
+
+                            <div class="" style="max-width: 50%;max-height: 33%;display: inline-block;margin-left:15px; margin-right: 15px;">
+                                <div style="text-align: center; font-weight: bold;">Employee C
+                                <img src=./resources/images/redBulb.png width="35px" height="45px"></div>
+                                <div style="text-align: center;">Always on time and has a positive attitude, when put on a team they understand how to lead and be a team player.
+                                    They are welcoming to new ideas keeping the end goal in mind. While having a busy schedule written and verbal communication
+                                    is no concern, feedback is prompt and cohesive. They strive for continuous development and improvement. Driven by curiosity,
+                                    they can help any team member solve a problem. Always up to date on topics and trends this team memeber is an asset to any firm.
+                                </div><br> -->
+                        <!-- <p style="text-align: center;">You might say :</p> -->
+                    
+                    
+                <!-- <body>Employee A : shows up to work 15 minutes early everyday, greets peers with a smile and postive attitude, 
+                    when put on a team they understand how to lead and be a team memeber. They are welcoming to new ideas, receptive
+                    to critism from thier peers and get the end goal in mind. While having a busy schedule written and verbal communication
+                    is no concern, feedback is prompt and cohesive. They strive for continuous development and improvement. Driven by curiosity,
+                    they can typically help any team member solve a problem. Always up to date on topics and trends this team memeber is an asset to any firm.
+                </body> -->
+            </div>
+            <div class ="emp2example"></div>
+            <div class="" style="max-width: 80%;max-height: 33%;display: inline-block;margin-left:15px; margin-right: 15px;">
+                <div style="text-align: center; font-weight: bold;">Employee B
+                <img src=./resources/images/yellowBulb.png width="35px" height="45px"></div>
+                <div style="text-align: center;">Always on time and has a positive attitude, when put on a team they understand how to lead and be a team player.
+                    They are welcoming to new ideas keeping the end goal in mind. While having a busy schedule written and verbal communication
+                    is no concern, feedback is prompt and cohesive. They strive for continuous development and improvement. Driven by curiosity,
+                    they can help any team member solve a problem. Always up to date on topics and trends this team memeber is an asset to any firm.
+                </div><br>
+
+            </div>
+                <div class ="emp2example"></div>
+                <div class="" style="max-width: 80%;max-height: 33%;display: inline-block;margin-left:15px; margin-right: 15px;">
+                    <div style="text-align: center; font-weight: bold;">Employee C
+                    <img src=./resources/images/redBulb.png width="35px" height="45px"></div>
+                    <div style="text-align: center;">Always on time and has a positive attitude, when put on a team they understand how to lead and be a team player.
+                        They are welcoming to new ideas keeping the end goal in mind. While having a busy schedule written and verbal communication
+                        is no concern, feedback is prompt and cohesive. They strive for continuous development and improvement. Driven by curiosity,
+                        they can help any team member solve a problem. Always up to date on topics and trends this team memeber is an asset to any firm.
+                    </div><br>
+
+            </div>
+
+        </div>
+    </form>
+        
+      
+        <!-- <label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+             -->
+            
+        
+<!--Navbar-->
+      
+       
+        <!-- <div id="editModal" class="modal">
+            <div class="modal-content">
+               
+                <span class="close" onclick="closeModal()">&times;</span>
+                <form onsubmit="return false" method="post">
+                    <label for="updateText">Update Text:</label>
+                    <input type="text" name="updateText" id="updateText">
+                    <input type="submit" value="Submit" id="updateSubmit"/>
+                </form>
+            </div>
+        </div> -->
+
+
+
+        <!-- <div id="survey">
+
+        </div>
+   -->
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

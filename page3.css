@@ -1,0 +1,179 @@
+
+/*navbar*/ 
+
+.navbar li{
+    display: inline-block; 
+    padding: 20px;
+    font-weight: 120;
+}
+.nav1 {
+    font-weight: bold;
+    font-size: large;  
+}
+.nav2 {
+    
+    font-size: large; 
+}
+.nav3{
+    
+    font-size: large; 
+}
+.nav4{
+    font-size: large;  
+    
+}
+
+
+/*boxes*/
+
+
+.profileBox{
+    border: 1px solid black; 
+    height: 600px; 
+    color: #000000;
+    background-color:white; 
+
+    /*
+    margin: 5%;
+    */ 
+
+    font-family: sans-serif;
+    box-shadow: grey;
+    font-size: 25px; 
+    list-style-type: none; 
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+
+.detailBox{
+    border: 1px solid black; 
+    height: 600px; 
+    color: #000000;
+    background-color:white; 
+
+    /*
+    margin: 5%;
+    */ 
+
+    font-family: sans-serif;
+    font-size: 25px; 
+    list-style-type: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+/*Regarding the employee profile picture*/ 
+.avatar{
+    background-image: url('./resources/images/profilePic.png');
+    background-size: cover;
+    left: 22px; 
+    top: 22px; 
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    /*
+    display: inline-block;
+    vertical-align: middle;  
+    */ 
+}
+.avatar2{
+    background-image: url('./resources/images/empTwo.png');
+    background-size: cover;
+    left: 5px; 
+    top: 15px; 
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    /*
+    display: inline-block;
+    vertical-align: middle;  
+    */ 
+}
+.avatar3{
+    background-image: url('./resources/images/empThree.png');
+    background-size: cover;
+    left: 22px; 
+    top: 22px; 
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    /*
+    display: inline-block;
+    vertical-align: middle;  
+    */ 
+}
+
+.name{
+    position: relative;
+    bottom: 140px;
+    left: 215px;
+    color: black; 
+}
+.overallScore{
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+    color: black; 
+}
+.leadershipScore{
+    position: relative;
+    top: 20px;
+    left: 70px;
+    color: black; 
+}
+.communicationScore{
+    position: relative;
+    top: 70px;
+    left: 70px;
+    color: black; 
+}
+.techScore{
+    position: relative;
+    top: 120px;
+    left: 70px;
+    color: black; 
+}
+
+
+.background{
+    width: 100%; 
+    background-image: url('./resources/images/back-2.jpg'); 
+    background-repeat: no-repeat;
+}
+
+.btn1{
+    position: relative;
+    bottom: 140px; 
+    left: 200px;
+}
+
+.surveys{
+    font-size: 100px;
+}
+
+.EmpName{
+    position: relative;
+    bottom: 100px; 
+    left: 250px; 
+    font-size:30px; 
+}
+
+.space{
+    font-size: 10px; 
+}
+
+.os-img-red{
+    background-image: url('./resources/images/redBulb.png');
+}
+.os-img-orange{
+    background-image: url('./resources/images/orangeBulb.png');
+    background-size: cover;
+    left: 100px; 
+    top: 100px; 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}

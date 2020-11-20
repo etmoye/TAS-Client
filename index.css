@@ -1,0 +1,170 @@
+.navbar li{
+    display: inline-block; 
+    padding: 20px;
+    font-weight: 120;
+}
+.nav1 {
+    font-weight: bold;
+    font-size: large;  
+}
+.nav2 {
+    
+    font-size: large; 
+}
+.nav3{
+    
+    font-size: large; 
+}
+.nav4{
+    font-size: large;  
+    
+}
+
+
+
+.survey{
+    border: 1px solid black; 
+    position: relative;
+    height: 4300px; 
+    color: #000000;
+    background-color: white;
+    margin: 5%;
+    font-family: sans-serif;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.form{
+    position: relative;
+    left: 20px; /* This will move it 20px to the right */
+    top: 20px; 
+
+}
+
+.background{
+    /*background-image: url('./resources/images/back-3.jpg'); */ 
+    background-color: blue;
+    max-width: auto;
+    top: 0px; 
+    right: 300px; 
+    background-repeat: no-repeat;
+    
+
+}
+
+.purpose{
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+    /* margin-right: 25px; */
+}
+
+.purposeBody{
+    line-height: 1.5;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+
+.scale{
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.scaleBody{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.empExample{
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.empExampleBody{
+    line-height: 1.5;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    columns: 3; 
+}
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0,0,0,0.4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-header {
+    background-color: #fefefe;
+    /* margin: 25% auto; 
+    padding: 20px; */
+    font-size: medium;
+    font-weight: 900px;
+    text-align: center;
+    height: 10%;
+    width: 100%; 
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-body{
+    display:block ;
+    background-color: #fefefe;
+    text-align: center;
+    /* margin: 25% auto;  */
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 50%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 25% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
